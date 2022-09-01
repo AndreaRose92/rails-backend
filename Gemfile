@@ -18,6 +18,8 @@ gem "rest-client", "~> 2.1"
 
 gem 'active_model_serializers'
 
+gem 'foreman'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
