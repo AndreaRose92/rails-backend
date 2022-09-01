@@ -3,6 +3,7 @@ class CharacterSerializer < ActiveModel::Serializer
 
   belongs_to :klass
   belongs_to :race
+  belongs_to :player
 
   def stats
     stats = ['strength', 'dexterity', 'constitution', 'intelligence', 'wisdom', 'charisma'].map { |s| {"#{s}": self.object[s]}}
