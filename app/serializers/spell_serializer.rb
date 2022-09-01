@@ -1,3 +1,4 @@
 class SpellSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :level
+  has_many :klasses
 end

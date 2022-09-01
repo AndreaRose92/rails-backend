@@ -1,3 +1,5 @@
 class KlassSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :hit_die
+
+  has_many :spells, serializer: KlassSpellSerializer
 end
