@@ -1,0 +1,2 @@
+class CharSkill < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class KlassSpell < ApplicationRecord
+end

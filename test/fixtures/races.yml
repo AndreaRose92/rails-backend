@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  speed: 1
+  languages: MyString
+  size: MyString
+  traits: MyString
+  ability_bonuses: MyString
+
+two:
+  name: MyString
+  speed: 1
+  languages: MyString
+  size: MyString
+  traits: MyString
+  ability_bonuses: MyString
